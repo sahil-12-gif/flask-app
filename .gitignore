@@ -1,5 +1,5 @@
 # Ignore Python bytecode files
-./__pycache__
+__pycache__
 
 # Ignore environment files
 .flaskenv
@@ -10,5 +10,6 @@
 
 # Ignore log files
 *.log
+
 # Ignore virtual environment
 venv/
