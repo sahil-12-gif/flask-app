@@ -9,7 +9,7 @@ from resources.item import blp as ItemBlueprint
 from resources.store import blp as StoreBlueprint
 
 
-def create_app(db_url=None):
+def create_app(db_url='mysql://root:@localhost:4306/my_db'):
     app = Flask(__name__)
     app.config["API_TITLE"] = "Stores REST API"
     app.config["API_VERSION"] = "v1"
